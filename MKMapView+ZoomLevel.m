@@ -164,5 +164,9 @@
     return zoomLevel;
 }
 
+- (void) setZoomLevel:(NSUInteger)zoomLevel {
+    [self setCenterCoordinate:self.region.center zoomLevel:zoomLevel animated:YES];
+}
+
 
 @end
