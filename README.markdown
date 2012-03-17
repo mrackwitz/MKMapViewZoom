@@ -23,9 +23,10 @@ In your view controller where you declare MKMapView simply import "MKMapView+Zoo
 
 
 # Note
-To get the current zoom level 
+To get or set the current zoom level 
 
-	int level = [mapView zoomLevel];
+	int level = mapView.zoomLevel;
+	mapView.zoomLevel = 10;
 
 
 # Questions
